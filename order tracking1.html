@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Order Tracking </title>
+</head>
+<body>
+    <h1>Order Tracking</h1>
+    <p>Enter your Order ID below to track your order:</p>
+
+    <form action="/track-order" method="GET">
+        <label for="orderId">Order ID:</label>
+        <input type="text" id="orderId" name="orderId" required>
+        <br><br>
+        <input type="submit" value="Track Order">
+    </form>
+
+    <hr>
+
+    <h2>Order Status</h2>
+    <p><i>Order details will appear here once you submit your Order ID.</i></p>
+</body>
+</html>
